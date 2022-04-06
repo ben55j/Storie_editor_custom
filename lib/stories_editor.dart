@@ -53,6 +53,7 @@ class StoriesEditor extends StatefulWidget {
 
   final Widget? alertBoxDiscard;
 
+  final String introText;
   const StoriesEditor({
     Key? key,
     required this.giphyKey,
@@ -68,6 +69,7 @@ class StoriesEditor extends StatefulWidget {
     this.galleryThumbnailQuality,
     this.bthDone,
     this.alertBoxDiscard,
+    this.introText ='Tap to type'
   }) : super(key: key);
 
   @override
